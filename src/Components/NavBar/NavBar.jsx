@@ -1,5 +1,6 @@
 
 import './NavBar.css';
+import CartWidget from '../CartWidget/CartWidget';
 
 function NavBar() {
     return (
@@ -7,11 +8,14 @@ function NavBar() {
             <h2>
                 <strong>Mi Ecommerce</strong>
             </h2>
+            <div className='logoCarro'>
+            <CartWidget/>
+            </div>
             <ul>
                 <li>Inicio</li>
                 <li>Servicios</li>
             </ul>
-        </div>
+        </div>        
     );
 }
 
